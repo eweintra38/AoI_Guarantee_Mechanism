@@ -1,0 +1,57 @@
+08:49:03 | INFO     | Log file is C:/temp/Overleaf/README.log.
+08:49:03 | INFO     | Loaded configuration from file C:/Users/eweintra/pm_tools/plugins/aces/types/mars.cfg
+08:49:03 | DEBUG    | mmd2doc::README.md:0,1,1,0::doc::MARS_CONFIGURATION: 
+{
+    "mars_check_report_mode": "document",
+    "mars_check_report_pass": "no",
+    "mars_check_waivers": [
+        {
+            "code": "VALUE_REQUIRED",
+            "attr": "Description"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "attr": "Instance Description"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "IntelRsvd"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "SAI Policy Group"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "Field IntelRsvd"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "Field Access"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "Field Default"
+        },
+        {
+            "code": "VALUE_REQUIRED",
+            "field": "Field Description"
+        }
+    ],
+    "mars_return_status_mode": "log",
+    "mars_xlsx_template_version_match": true,
+    "mars_check_hidden_fields": false,
+    "mars_syntax_rules_file": null,
+    "mars_splunk_token": null,
+    "mars_upload_qr_to_splunk": false,
+    "mars_ir_records_in_qr": false,
+    "mars_cfg_files": [
+        "C:/Users/eweintra/pm_tools/plugins/aces/types/mars.cfg"
+    ],
+    "mars_spec_mode": "legacy",
+    "mars_spec_mode_default": "normal",
+    "symbols": {},
+    "mars_config_tag": "default"
+}
+08:49:03 | DEBUG    | mmd2doc::README.md:0,1,1,0::doc::XLSX_TO_IMG_FILES: 0
+08:49:03 | DEBUG    | mmd2doc::README.md:0,1,1,0::doc::PANDOC_INIT: 
